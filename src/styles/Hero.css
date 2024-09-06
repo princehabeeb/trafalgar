@@ -27,3 +27,20 @@
     left: -90px;
     top: -60px;
 }
+
+
+@media screen and (max-width: 900px){
+    .hero{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .hero-img{
+       display: none;
+    }
+    .hero div{
+        width: 90%;
+        padding: 5%;
+    }
+}

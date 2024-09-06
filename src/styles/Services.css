@@ -1,0 +1,43 @@
+.services{
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services h1{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.services p{
+  color: #7D7987;
+  text-align: center;
+}
+
+
+
+
+ /* .services-h1, .services-h1{
+    text-align: center;
+} */
+
+.services h1{
+    text-align: center;
+}
+
+.boxes{
+    width: 90%;
+    margin:  0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:20px;
+}
+
+.box{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

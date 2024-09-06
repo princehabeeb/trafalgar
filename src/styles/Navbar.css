@@ -3,6 +3,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    position: relative;
 }
 
 
@@ -24,4 +26,55 @@ nav a{
     font-style: normal;
     font-variation-settings:
     "wdth" 100;
+}
+
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width:900px){
+    /* nav{
+        padding: 0px 12px;
+    } */
+    ul{
+       position: absolute;
+       background-color: green;
+       width: 100%;
+       margin-top: 280px;
+       z-index: 999;
+       padding-top: 20px;
+       display: none;
+    }
+
+    .show{
+        position: absolute;
+       background-color: green;
+       width: 100%;
+       margin-top: 285px;
+       z-index: 999;
+       padding-top: 20px;
+       display: block; 
+       transition: .3s ease-in-out;
+    }
+
+    li{
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        /* opacity: 0; */
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+
+    .menu{
+        display: block;
+        margin-right: 12px;
+        font-size: 22px;
+        cursor: pointer;
+    }
 }
