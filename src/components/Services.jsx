@@ -44,13 +44,14 @@ const Services = () => {
 
       <div className='boxes'>
      { 
-     allBox.map((icon, title, desc)  => {
+     allBox.map((icon, title, desc)  => (
       <div className="box">
       <img src={icon} alt={title} />
       <h2>{title}</h2>
       <h6>{desc}</h6>
     </div>
-     })
+     )
+     )
      }
        </div>
       </div>
