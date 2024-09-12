@@ -5,30 +5,30 @@ const allBox = [
   {
     icon: '/images/search.png',
     title: 'Search doctor',
-    desc: 'Choose your doctor from thousands of specialist, general, and trusted hospitals'
+    desc: 'Choose your doctor from  thousands of specialist, general, and trusted hospitals'
   },
   {
-    icon: '/images/search.png',
+    icon: '/images/pharmacy.png',
     title: 'Online pharmacy',
     desc: 'Buy  your medicines with our mobile application with a simple delivery system'
   },
   {
-    icon: '/images/search.png',
+    icon: '/images/consultation.png',
     title: 'Consultation',
     desc: 'Free consultation with our trusted doctors and get the best recomendations'
   },
   {
-    icon: '/images/search.png',
+    icon: '/images/details.png',
     title: 'Details info',
     desc: 'Free consultation with our trusted doctors and get the best recomendations'
   },
   {
-    icon: '/images/search.png',
+    icon: '/images/care.png',
     title: 'Emergency care',
     desc: 'You can get 24/7 urgent care for yourself or your children and your lovely family'
   },
   {
-    icon: '/images/search.png',
+    icon: '/images/tracking.png',
     title: 'Tracking',
     desc: 'Track and save your medical history and health data '
   },
@@ -53,6 +53,9 @@ const Services = () => {
             </div>
           ))}
         </div>
+      </div>
+      <div className="btn-container">
+      <button className='btn'>Learn more</button>
       </div>
     </section>
   );
